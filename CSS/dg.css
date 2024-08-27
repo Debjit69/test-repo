@@ -1,0 +1,253 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    height:75px;
+    background-color:#53698f;
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 50px;
+    position:fixed;
+    z-index:1;
+}
+.logo{
+    font-size: 32px;
+    font-weight:bold;
+}
+.menu{
+    width:65%;
+    display:flex;
+    justify-content:center;
+    list-style: none;
+}
+.menu li{
+    margin-left:20px;
+}
+.menu li a{
+    font-size:19px;
+    color:#fff;
+    text-decoration: none;
+    transition:0.3s ease;
+}
+.menu li a:hover{
+    color:#ccc;
+}
+.search{
+    display:flex;
+    align-items:center;
+    margin-right:0;
+}
+.search form{
+    display:flex;
+    margin:0;
+}
+.search input{
+    padding:10px;
+    border:1px solid #ddd;
+    outline:none;
+    border-radius:5px;
+    margin-right:10px;
+    font-size:16px;
+}
+.search input:hover{
+    border:1px solid #72a0d4;
+}
+.search button{
+    padding:10px;
+    background-color: #fff;
+    border:none;
+    border-radius:5px;
+    color:#333;
+    font-size:19px;
+    cursor:pointer;
+}
+.search button:hover{
+    background-color: #ccc;
+}
+.head2{
+    margin-left:8%;
+    margin-top:9%;
+}
+.head2 h4{
+    font-size:18px;
+    color:#3d0303;
+    margin-bottom:20px;
+}
+span{
+    color:orange;
+}
+.head2 H1{
+    color:#555;
+    line-height:60px;
+    font-size:50px;
+}
+.head3{
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+}
+.head3 img{
+    height:100%;
+    position:absolute;
+    left:65%;
+    bottom:180px;
+    transform:translateX(-50%);
+    transition: bottom 1s,left 1s;
+    overflow: hidden;
+}
+.head3 img{
+    height:400px;
+    width:450px;
+    border-radius:50%;
+
+}
+.head4{
+    padding-top:40px;
+    margin-top:190px;
+    padding-bottom: 25px;
+    text-align:center;
+    background-color: #72a0d4;
+}
+.head4 h3{
+    font-size:30px;
+    color:crimson;
+    top: 50px;;
+}
+.head4 p{
+    font-size:20px;
+}
+#menu{
+    padding:25px 0 25px 0;
+}
+#section{
+    padding:25px 0 25px 0;
+    text-align:center;
+    font-size:2rem;
+    font-family:verdana;
+}
+#menu_row{
+    display:flex;
+    padding:0 100px 0 100px;
+}
+#menu_col{
+    box-shadow:2px 2px 2px #bbb;
+    border:1px solid #bbb;
+    background-color: #fff;
+    margin:10px;
+    padding:10px;
+    flex:1;
+}
+#menu_col h2{
+    background-color: red;
+    color:#fff;
+    text-align:center;
+    padding:5px;
+    font-family:cursive;
+}
+#image{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    padding:5px;
+    border:2px solid orange;
+}
+#image img{
+    width:132px;
+    height:136px;
+    border-radius:50%;
+    object-fit: cover;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin:5px;
+}
+.banner{
+    min-height:25vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+    padding-bottom: 20px;
+}
+.card-container{
+    display:grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("card-img.jpeg")center/
+    cover no-repeat;
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    color:crimson;
+}
+.card-content{
+    background: #fff;
+    height:330px;
+}
+.card-content h3{
+    text-align: center;
+    padding:25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+}
+form select,form input{
+    display:block;
+    width:100%;
+    margin:15px 12px;
+    padding:5px;
+    font-size:15px;
+    font-family:'poppins',
+    sans-sarif;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type=text],from input
+[type=number],form input::placeholder,
+select{
+    color:#9a9a9a;
+}
+form input[type=submit]{
+    color:#fff;
+    background: #f2745f;
+    padding:12px 0;
+    border-radius: 4px;
+    cursor:pointer;
+}
+form input[type=submit]:hover{
+    opacity: 0.9;
+}
+header{
+    font-size:24px;
+    font-family:cursive ;
+    text-align:center;
+}
+.box1{
+    display:block;
+    float:left;
+    width:20%;
+    padding:10px;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
